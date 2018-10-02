@@ -4,6 +4,14 @@ This is a [ROS](http://ros.org) package for the [Aravis GigEVision
 library](http://live.gnome.org/Aravis). It is open source, under the
 LGPL (like Aravis itself).
 
+Install Aravis lib :
+
+  $ git clone https://github.com/AravisProject/aravis.git
+  $ sudo apt install autoconf automake libtool intltool gtk-doc-tools
+  $ ./autogen.sh
+  $ make
+  $ sudo make install
+
 
 ------------------------
 The basic command to run camera_aravis:
